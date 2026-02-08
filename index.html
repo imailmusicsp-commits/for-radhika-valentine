@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Radhika</title>
+  <meta property="og:title" content="For Radhika 💌" />
+  <meta property="og:description" content="Some feelings don’t need names. They just need to be felt." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<audio id="bgMusic" src="bg-music.mp3" loop></audio>
+<audio id="clickSound" src="click.mp3"></audio>
+
+<div id="lockScreen" class="screen">
+  <h1>Some stories are locked</h1>
+  <p>The day you were born</p>
+  <input type="password" id="password" placeholder="❤️ ❤️ ❤️ ❤️">
+  <button onclick="unlock()">Unlock</button>
+</div>
+
+<div id="mainContent" class="hidden">
+
+<section class="welcome">
+  <h2>Between silence and smiles,<br>you became a habit.</h2>
+  <button onclick="playClick()">Enter</button>
+</section>
+
+<section class="diary">
+  <h2>📓 Dear Diary</h2>
+
+  <div class="letter">
+    <h4>For the Day You Smile Without a Reason</h4>
+    <p>
+    Dear Red Flag,<br><br>
+    Tujhe hamesha reason chahiye hota hai smile karne ka,
+    par kabhi kabhi bas yunhi bhi muskuraya kar —
+    duniya thodi aur khubsurat lagti hai jab tu haste hue dekhti hai.
+    </p>
+    <span>– someone who notices your smile</span>
+  </div>
+
+</section>
+
+<section class="photos">
+  <h2>📸 Memories</h2>
+  <p>Add her photos inside the <b>photos</b> folder.</p>
+</section>
+
+<section class="songs">
+  <h2>🎧 Songs That Feel Like You</h2>
+  <iframe src="https://open.spotify.com/embed/track/0C47mkZ7VGcnKBvEG7PiAP" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/track/3vLFA2nTU6usnRbYrmVo6f" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/track/2wM51RIXhiuFbILoaPp72w" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/track/43TsFFiJhkU8Lsame8tFv5" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/track/3hkC9EHFZNQPXrtl8WPHnX" allow="encrypted-media"></iframe>
+</section>
+
+<section id="final" class="final hidden">
+  <h1>Some feelings don’t need names.<br>They just need to be felt. ❤️</h1>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
